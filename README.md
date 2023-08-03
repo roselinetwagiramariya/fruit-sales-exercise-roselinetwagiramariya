@@ -26,11 +26,10 @@ Write the data to a file called `fruit.csv` in the project directory.
 1. Accept the exercise from GitHub. GitHub will automatically create a new repo 
 for you with an open Pull Request for your changes.
 1. Clone the new repo to your machine.
-1. Create a virtual environment and install the packages listed in the 
-`requirements.txt` file.
+1. Create a virtual environment, activate it, and install the packages listed 
+in the `requirements.txt` file.
 1. Add your code to the specified file.
 1. Add/Commit/Push your code back to GitHub.GitHub will run the automated tests 
 when you push.
 1. Review the Pull Request on your repo to see the status of the tests.
 1. “Turn in” the assignment in Google Classroom.
-
