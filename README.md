@@ -27,13 +27,24 @@ back to GitHub.
 1. Accept the exercise from GitHub. GitHub will automatically create a new repo 
 for you with an open Pull Request for your changes.
 1. Clone the new repo to your machine.
-1. Create a virtual environment, activate it, and install the packages listed 
-in the `requirements.txt` file.
+1. Create a virtual environment, activate it, and install the required packages. (see instructions below)
 1. Add your code to the specified file.
 1. Add/Commit/Push your code back to GitHub.GitHub will run the automated tests 
 when you push.
 1. Review the Pull Request on your repo to see the status of the tests.
 1. “Turn in” the assignment in Google Classroom.
+
+
+### Virtual Environment Step-by-Step Instructions
+
+1. After you have cloned the repo to your machine, 
+navigate to the project folder in GitBash/Terminal.
+1. Create a virtual environment in the project folder. `python3 -m venv venv` [^1]
+1. Activate the virtual environment. `source venv/bin/activate`
+1. Install the required packages. `pip install -r requirements.txt`
+1. When you are done working on your repo, deactivate the virtual environment. `deactivate`
+
+[^1]: GitBash on Windows uses “python” instead of “python3”
 
 
 ## Optional: Automated Code Testing
